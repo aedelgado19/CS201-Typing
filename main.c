@@ -97,5 +97,5 @@ void gamePlay(char* arr[SIZE]){
   //end timer here
   gettimeofday(&finish, NULL); //store time of day in finish
   timersub(&finish, &begin, &elapsed); //timersub(a - b into c)
-  printf("Nice work! You took: %ld seconds and %d microseconds\n", elapsed.tv_sec, elapsed.tv_usec);
+  printf("Nice work! You took: %ld seconds and %ld microseconds\n", elapsed.tv_sec, elapsed.tv_usec);
 }
